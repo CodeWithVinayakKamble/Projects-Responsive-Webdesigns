@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Civic-Services Survey Form</h1>
+    <h4 id="subtitle">Who we are ?</h4>
+    <p id="description">As a Non-Governmental body focused on societal Improvement in your local area,so we need your
+        feedback on essential civic services provide by government: <strong>Electricity, Water, Waste & Sewage
+            management, Roads and Parks.</strong> Your input will help us identify
+        areas for improvement, and we intend to collaborate with local government bodies to bring about positive changes
+        in these areas for our society.</p>
+    <form id="survey-form">
+        <fieldset class="basic-info section">
+            <label id="name-label" for="name" name="fullname">Name : <input id="name" type="text" 
+                    placeholder="Enter Your Full Name" value="Vinayak kamble" name="full-name" required></label>
+            <label id="email-label" for="email"> Email : <input id="email" name="email" type="email" placeholder="Enter Your Email" value="your.email@example.com"
+                    required></label>
+            <label id="number-label" for="number" name="phone-number">Contact Number : <input type="number" id="number"
+                    placeholder="Enter Contact number" value="7738420023" min="0000000000" max="9999999999" title="Please input valid 10 digit contact number" name="contact" pattern="[0-9]{10}"
+                    title="Please enter a 10-digit phone number." required></label>
+            <label for="locality" name="local-area">Locality : <input type="text" placeholder="Enter Your Locality"
+                    id="locality" name="locality"></label>
+            <label for="pincode" name="zipcode">Enter Pincode : <input type="number" pattern="[0-9]{6}"
+                    placeholder="400701" title="Please enter a six digit valid picode or zipcode" id="pincode"
+                    name="pincode"></label>
+        </fieldset>
+        <h4 class="sub-description"> Please ansewer the below questions to get ground reality !</h4>
+        <fieldset class="questionSet section">
+            <p id="q-1">Q.1 How reliable is the water supply in your area ?</p>
+            <div>
+                <label for="option-1">
+                    <input type="radio" id="option-1" class="inline" name="water-supply" value="Very Reliable" checked>Very Reliable
+                </label>
+
+                <label for="option-2">
+                    <input type="radio" id="option-2" class="inline" name="water-supply" value="reliable">Reliable
+                </label>
+
+                <label for="option-3">
+                    <input type="radio" id="option-3" class="inline" name="water-supply" value="Sometimes">Sometimes
+                </label>
+
+                <label for="option-4">
+                    <input type="radio" id="option-4" class="inline" name="water-supply" value="Often">Often
+                </label>
+            </div>
+            <!--  -->
+            <p id="q-2">Q.2 How would you rate the quality of the water ?</p>
+            <div>
+                <label for="option-2/1">
+                    <input type="radio" id="option-2/1" class="inline" name="water-quality" value="potable" checked>Potable
+                </label>
+                <label for="option-2/2">
+                    <input type="radio" id="option-2/2" class="inline" name="water-quality" value="palatable">Palatable
+                </label>
+
+                <label for="option-2/3">
+                    <input type="radio" id="option-2/3" class="inline" name="water-quality" value="contaminated">Contaminated
+                </label>
+
+                <label for="option-2/4">
+                    <input type="radio" id="option-2/4" class="inline" name="water-quality" value="infected">Infected
+                </label>
+
+            </div>
+            <!--  -->
+            <p id="q-3">Q.3 How reliable is the electricity supply in your area ?</p>
+            <div>
+                <label for="option-3/1">
+                    <input type="radio" id="option-3/1" class="inline" name="electricity-supply" value="Very_reliable" checked>Very Reliable
+                </label>
+
+                <label for="option-3/2">
+                    <input type="radio" id="option-3/2" class="inline" name="electricity-supply" value="reliable">Reliable
+                </label>
+
+                <label for="option-3/3">
+                    <input type="radio" id="option-3/3" class="inline" name="electricity-supply" value="Sometimes">Sometimes
+                </label>
+
+                <label for="option-3/4">
+                    <input type="radio" id="option-3/4" class="inline" name="electricity-supply" value="often">Often
+                </label>
+
+            </div>
+            <!--  checkbox  -->
+            <p id="q-4">Q.4 How frequently do you experience power outages ?</p>
+            <div class="block">
+                <label for="check-daily">
+                    <input type="checkbox" id="check-daily" name="collect" value="daily-outage"> Daily full time
+                </label>
+
+                <label for="check-foronce">
+                    <input type="checkbox" id="check-foronce" name="collect" value="onceinaday"> Once in a Day
+                </label>
+
+                <label for="check-fortwice">
+                    <input type="checkbox" id="check-fortwice" name="collect" value="twiceinaday"> Twice in a Day
+                </label>
+                <label for="check-alternate">
+                    <input type="checkbox" id="check-alternate" name="collect" value="Alternate"> Alternate Days
+                </label>
+                <label for="check-never">
+                    <input type="checkbox" id="check-never" name="collect" value="never" checked> Never
+                </label>
+            </div>
+            <!--  -->
+            <p id="q-5">Q.5 How frequently is garbage collected in your area ?</p>
+            <div class="block">
+                <label for="colect-foronce">
+                    <input type="checkbox" id="colect-foronce" name="check" value="onceinaday"> Once in a Day
+                </label>
+
+                <label for="colect-fortwice">
+                    <input type="checkbox" id="colect-fortwice" name="check" value="twiceinaday" checked> Twice in a Day
+                </label>
+                <label for="colect-alternate">
+                    <input type="checkbox" id="colect-alternate" name="check" value="Alternate"> Alternate Days
+                </label>
+                <label for="colect-never">
+                    <input type="checkbox" id="colect-never" name="check" value="never"> Never
+                </label>
+            </div>
+            <!--  -->
+            <p id="q-6">Q.6 How would you rate the cleanliness of your neighborhood and public spaces in terms of waste
+                management ?</p>
+            <div class="rate-container">
+                <label for="Star-0">
+                    <input type="radio" id="Star-0" class="inline" name="rate" value="0">0 Star
+                </label>
+                <label for="Star-1">
+                    <input type="radio" id="Star-1" class="inline" name="rate" value="1">1 Star
+                </label>
+                <label for="Star-2">
+                    <input type="radio" id="Star-2" class="inline" name="rate" value="2">2 Star
+                </label>
+                <label for="Star-3">
+                    <input type="radio" id="Star-3" class="inline" name="rate" value="3">3 Star
+                </label>
+                <label for="Star-4">
+                    <input type="radio" id="Star-4" class="inline" name="rate" value="4">4 Star
+                </label>
+                <label for="Star-5">
+                    <input type="radio" id="Star-5" class="inline" name="rate" value="5" checked>5 Star
+                </label>
+            </div>
+            <!--  -->
+            <p id="q-7">Q.7 How satisfied are you with the sewage system and its maintenance in your area ?</p>
+            <div>
+                <label for="q7/1">
+                    <input type="radio" id="q7/1" class="inline" name="sewage" value="Very_reliable" checked>Very Reliable
+                </label>
+
+                <label for="q7/2">
+                    <input type="radio" id="q7/2" class="inline" name="sewage" value="reliable">Reliable
+                </label>
+
+                <label for="q7/3">
+                    <input type="radio" id="q7/3" class="inline" name="sewage" value="Sometimes">Sometimes
+                </label>
+
+                <label for="q7/4">
+                    <input type="radio" id="q7/4" class="inline" name="sewage" value="often">Often
+                </label>
+            </div>
+            <!--  -->
+            <p id="q-7">Q.8 Have you experienced any issues in your area related to sewage on daly basis like (e.g.,
+                blockages,
+                overflows, foul odors) ?</p>
+            <div>
+                <label for="8/1">
+                    <input type="radio" id="8/1" class="inline" name="experience" value="yes" checked>Yes
+                </label>
+                <label for="8/2">
+                    <input type="radio" id="8/2" class="inline" name="experience" value="no">No
+                </label>
+                <div class="unhygenic-place">
+                    <label for="upload-image">* If yes : Upload Image of that area
+                        <input type="file" id="upload-image">
+                    </label>
+                </div>
+            </div>
+            <!--  -->
+            <p id="q-9">Q.9 How would you rate the condition of the roads in your area ? </p>
+            <div class="rate-container">
+                <label for="rate-1">
+                    <input type="radio" id="rate-1" class="inline" name="road" value="1">1 Star
+                </label>
+                <label for="rate-2">
+                    <input type="radio" id="rate-2" class="inline" name="road" value="2">2 Star
+                </label>
+                <label for="rate-3">
+                    <input type="radio" id="rate-3" class="inline" name="road" value="3">3 Star
+                </label>
+                <label for="rate-4">
+                    <input type="radio" id="rate-4" class="inline" name="road" value="4">4 Star
+                </label>
+                <label for="rate-5">
+                    <input type="radio" id="rate-5" class="inline" name="road" value="5" checked>5 Star
+                </label>
+            </div>
+            <!--  -->
+            <p id="q-10">Q.10 How would you rate the maintenance and cleanliness of the parks ?</p>
+            <div class="rate-container">
+                <label for="rating-1">
+                    <input type="radio" id="rating-1" class="inline" name="park" value="1">1 Star
+                </label>
+                <label for="rating-2">
+                    <input type="radio" id="rating-2" class="inline" name="park" value="2">2 Star
+                </label>
+                <label for="rating-3">
+                    <input type="radio" id="rating-3" class="inline" name="park" value="3">3 Star
+                </label>
+                <label for="rating-4">
+                    <input type="radio" id="rating-4" class="inline" name="park" value="4">4 Star
+                </label>
+                <label for="rating-5">
+                    <input type="radio" id="rating-5" class="inline" name="park" value="5" checked>5 Star
+                </label>
+            </div>
+            <div class="value-select">
+                <label name="satisfaction" for="dropdown">* Over All Satisfaction with Civic Services Provide
+                    government.
+                    <select id="dropdown" name="truth" required>
+                        <option value="">(select one)</option>
+                        <option value="1">Strongly satisfied</option>
+                        <option value="2">Poorley satisfied</option>
+                        <option value="3">Not to say Anything</option>
+                        <option value="4">Need More and Much Improvements</option>
+                    </select>
+                </label>
+            </div>
+            <div class="comments">
+                <label for="suggetion" name="">* Do you have any other comments or suggestions regarding civic services
+                    in Your area that you would like to share ?
+                    <textarea rows="5" cols="63" name="input-suggestion"
+                        placeholder="share Your comments and suggestions here" id="suggetion"></textarea>
+                </label>
+            </div>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit" name="submit-form">
+    </form>
+</body>
+
+</html>

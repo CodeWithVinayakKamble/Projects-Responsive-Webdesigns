@@ -1,0 +1,89 @@
+Civic Services Survey form
+
+As a non-governmental body focused on societal improvement in your local area,so we need your feedback on essential civic services provide by government: electricity, water, waste & sewage management, public cleanliness, roads, and parks & recreation. Your input will help us  identify areas for improvement, and we intend to collaborate with local government bodies to bring about positive changes in these areas for our society.
+
+full name
+email
+phone-number
+locality
+pincode
+
+
+plese ansewer the below questions to know exact ground reality
+
+questions
+
+How reliable is the water supply in your area?
+very reliable , reliable , sometimes , often
+
+How would you rate the quality of the water?
+
+potable water (suitable for drinking), palatable water (suitable for drinking but may have some aesthetic issues like taste or odor), contaminated (polluted) water, and infected water (containing disease-causing organisms)
+
+
+************************************
+
+How reliable is the electricity supply in your area ? (Use the same scale as water reliability) -
+How frequently do you experience power outages? (Use the same options as water disruption frequency) 
+Do you have any specific concerns or suggestions regarding the electricity supply in your area?
+
+*******************************************
+How satisfied are you with the garbage collection services in your area? (Use the same 5-point satisfaction scale as overall satisfaction) -
+
+How frequently is garbage collected in your area ?
+
+How would you rate the cleanliness of your neighborhood and public spaces in terms of waste management? (Use the same 5-point quality scale as water quality) 
+
+Do you have any specific concerns or suggestions regarding waste management in your area?
+
+**************************************************
+
+How satisfied are you with the sewage system and its maintenance in your area? (Use the same 5-point satisfaction scale)?
+
+Have you experienced any issues related to sewage (e.g., blockages, overflows, foul odors)?
+
+Do you have any specific concerns or suggestions regarding sewage management in your area?
+
+******************************************************
+
+II. Roads and Infrastructure:
+
+<legend>Roads and Infrastructure</legend>
+How would you rate the condition of the roads in your area? (Use the same 5-point quality scale)
+
+How would you rate the condition of the sidewalks and footpaths in your area? (Use the same 5-point quality scale)
+
+Are streetlights adequately maintained in your area?
+
+o you have any specific concerns or suggestions regarding roads and infrastructure in your area?
+
+************************************
+
+II. Parks and Recreation:
+
+<legend>Parks and Recreation</legend>
+How satisfied are you with the availability of parks and recreational spaces in your locality? (Use the same 5-point satisfaction scale) - name="parks_availability"
+
+How would you rate the maintenance and cleanliness of the parks ? (Use the same 5-point quality scale) - name="parks_maintenance"
+
+Are there enough recreational facilities for different age groups in your area (e.g., playgrounds, sports areas, seating)?
+
+Do you have any specific concerns or suggestions regarding parks and recreation in your area?
+
+****************
+
+X. Overall Satisfaction and Additional Comments:
+
+<legend>Overall Satisfaction and Additional Feedback</legend>
+
+Overall, how satisfied are you with the civic services in your area of Navi Mumbai? (Use the same 5-point satisfaction scale) - name="overall_satisfaction"
+
+Do you have any other comments or suggestions regarding civic services in Your area that you would like to share ?
+
+
+Thank you for taking the time to help us improve the platform
+
+Submission date
+
+
+Submission Button:
